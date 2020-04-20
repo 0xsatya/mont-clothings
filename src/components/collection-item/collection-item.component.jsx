@@ -1,6 +1,5 @@
 import React from 'react';
 import './collection-item.styles.scss';
-import CollectionPreview from '../collection-preview/collection-preview.component';
 
 const CollectionItem = ({name, price, imageUrl}) => {
 
@@ -20,4 +19,4 @@ const CollectionItem = ({name, price, imageUrl}) => {
     );
 }
 
-export default CollectionItem;
+export default CollectionItem;   
