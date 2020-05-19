@@ -16,3 +16,8 @@ import {createSelector} from 'reselect';
      accumulatedVal + currentItem.quantity,
     0)
  )
+
+ export const selectCartHidden = createSelector(
+    [selectCart],
+    (cart) => cart.hidden
+)
